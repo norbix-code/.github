@@ -21,7 +21,7 @@ version you tested.
 | `NorbixApi`, `NorbixHub` (Swift) | [sdk-swift](https://github.com/norbix-code/sdk-swift) | [GitHub releases](https://github.com/norbix-code/sdk-swift/releases) | Latest `0.x` minor :white_check_mark: |
 | `ai.norbix:norbix-kotlin` | [sdk-kotlin](https://github.com/norbix-code/sdk-kotlin) | [Maven Central](https://central.sonatype.com/artifact/ai.norbix/norbix-kotlin) | Latest `0.x` minor :white_check_mark: |
 | Go SDK (`github.com/norbix-code/sdk-go`) | [sdk-go](https://github.com/norbix-code/sdk-go) | [pkg.go.dev](https://pkg.go.dev/github.com/norbix-code/sdk-go) | Latest `0.x` minor :white_check_mark: |
-| `@norbix/react-redux` | [react-redux](https://github.com/norbix-code/react-redux) | not yet released | `main` branch :white_check_mark: |
+| `@norbix.ai/react-redux` | [react-redux](https://github.com/norbix-code/react-redux) | [npm](https://www.npmjs.com/package/@norbix.ai/react-redux) | Latest `0.x` minor :white_check_mark: |
 | Older minor versions | | | :x: |
 
 Deprecated package versions on a registry (for example `Norbix.Api` and
