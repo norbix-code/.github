@@ -11,6 +11,7 @@ Releases are automated, so the newest version is always the one on the
 package registry. Please upgrade to it before reporting, and include the
 version you tested.
 
+<!-- security-table:start -->
 | Package | Repository | Registry | Supported |
 | ------- | ---------- | -------- | --------- |
 | `@norbix.ai/ts` | [sdk-ts](https://github.com/norbix-code/sdk-ts) | [npm](https://www.npmjs.com/package/@norbix.ai/ts) | Latest `1.x` minor :white_check_mark: |
@@ -23,6 +24,7 @@ version you tested.
 | Go SDK (`github.com/norbix-code/sdk-go`) | [sdk-go](https://github.com/norbix-code/sdk-go) | [pkg.go.dev](https://pkg.go.dev/github.com/norbix-code/sdk-go) | Latest `0.x` minor :white_check_mark: |
 | `@norbix.ai/react-redux` | [react-redux](https://github.com/norbix-code/react-redux) | [npm](https://www.npmjs.com/package/@norbix.ai/react-redux) | Latest `0.x` minor :white_check_mark: |
 | Older minor versions | | | :x: |
+<!-- security-table:end -->
 
 Deprecated package versions on a registry (for example `Norbix.Api` and
 `Norbix.Hub` before 1.4.0) are not supported.

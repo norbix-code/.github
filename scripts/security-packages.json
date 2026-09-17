@@ -1,0 +1,14 @@
+{
+  "$comment": "Rows of the Supported Versions table in SECURITY.md. scripts/update-security-table.mjs looks up each package's latest stable version and regenerates the table. Add a package here (not in SECURITY.md) when a new SDK appears.",
+  "packages": [
+    { "name": "`@norbix.ai/ts`", "repo": "sdk-ts", "registry": "npm", "registryUrl": "https://www.npmjs.com/package/@norbix.ai/ts", "source": { "type": "npm", "id": "@norbix.ai/ts" } },
+    { "name": "`@norbix.ai/cli`", "repo": "cli", "registry": "npm", "registryUrl": "https://www.npmjs.com/package/@norbix.ai/cli", "source": { "type": "npm", "id": "@norbix.ai/cli" } },
+    { "name": "`Norbix.Api`, `Norbix.Hub`", "repo": "sdk-net", "registry": "NuGet", "registryUrl": "https://www.nuget.org/packages/Norbix.Api", "source": { "type": "nuget", "id": "Norbix.Api" } },
+    { "name": "`norbix` (Python)", "repo": "sdk-python", "registry": "PyPI", "registryUrl": "https://pypi.org/project/norbix/", "source": { "type": "pypi", "id": "norbix" } },
+    { "name": "`norbix` (Dart)", "repo": "sdk-dart", "registry": "pub.dev", "registryUrl": "https://pub.dev/packages/norbix", "source": { "type": "pub", "id": "norbix" } },
+    { "name": "`NorbixApi`, `NorbixHub` (Swift)", "repo": "sdk-swift", "registry": "GitHub releases", "registryUrl": "https://github.com/norbix-code/sdk-swift/releases", "source": { "type": "github-release", "id": "norbix-code/sdk-swift" } },
+    { "name": "`ai.norbix:norbix-kotlin`", "repo": "sdk-kotlin", "registry": "Maven Central", "registryUrl": "https://central.sonatype.com/artifact/ai.norbix/norbix-kotlin", "source": { "type": "maven", "id": "ai.norbix:norbix-kotlin" } },
+    { "name": "Go SDK (`github.com/norbix-code/sdk-go`)", "repo": "sdk-go", "registry": "pkg.go.dev", "registryUrl": "https://pkg.go.dev/github.com/norbix-code/sdk-go", "source": { "type": "go", "id": "github.com/norbix-code/sdk-go" } },
+    { "name": "`@norbix.ai/react-redux`", "repo": "react-redux", "registry": "npm", "registryUrl": "https://www.npmjs.com/package/@norbix.ai/react-redux", "source": { "type": "npm", "id": "@norbix.ai/react-redux" } }
+  ]
+}
