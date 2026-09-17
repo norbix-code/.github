@@ -22,5 +22,7 @@ by hand:
   `--check` to see whether it is out of date.
 - The **Update security table** workflow runs it every Monday and on demand
   (Actions → Update security table → Run workflow). When the table changed —
-  a new major version, a first release, or a manifest change — it opens a pull
-  request from `automation/security-table` for review.
+  a new major version, a first release, or a manifest change — it pushes the
+  regenerated file to `automation/security-table`. The organization does not
+  let GitHub Actions create pull requests, so it opens (or updates) an issue
+  with the changed rows and a one-click link to create the pull request.
