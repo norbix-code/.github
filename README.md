@@ -8,3 +8,19 @@ have its own copy:
 
 - [`SECURITY.md`](SECURITY.md) — supported versions and how to report a
   vulnerability in the Norbix SDKs and CLI.
+
+## Keeping the security table current
+
+The **Supported Versions** table in `SECURITY.md` is generated, so don't edit it
+by hand:
+
+- `scripts/security-packages.json` lists the packages (name, repository,
+  registry and where to look up the latest version). Add a new SDK here.
+- `scripts/update-security-table.mjs` looks up each package's latest stable
+  release and rewrites the table between the `security-table` markers. Run it
+  locally with `node scripts/update-security-table.mjs` (Node 22+), or with
+  `--check` to see whether it is out of date.
+- The **Update security table** workflow runs it every Monday and on demand
+  (Actions → Update security table → Run workflow). When the table changed —
+  a new major version, a first release, or a manifest change — it opens a pull
+  request from `automation/security-table` for review.
