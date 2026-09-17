@@ -19,7 +19,7 @@ version you tested.
 | `norbix` (Python) | [sdk-python](https://github.com/norbix-code/sdk-python) | [PyPI](https://pypi.org/project/norbix/) | Latest `1.x` minor :white_check_mark: |
 | `norbix` (Dart) | [sdk-dart](https://github.com/norbix-code/sdk-dart) | [pub.dev](https://pub.dev/packages/norbix) | Latest `1.x` minor :white_check_mark: |
 | `NorbixApi`, `NorbixHub` (Swift) | [sdk-swift](https://github.com/norbix-code/sdk-swift) | [GitHub releases](https://github.com/norbix-code/sdk-swift/releases) | Latest `0.x` minor :white_check_mark: |
-| Kotlin SDK | [sdk-kotlin](https://github.com/norbix-code/sdk-kotlin) | not yet released | `main` branch :white_check_mark: |
+| `ai.norbix:norbix-kotlin` | [sdk-kotlin](https://github.com/norbix-code/sdk-kotlin) | [Maven Central](https://central.sonatype.com/artifact/ai.norbix/norbix-kotlin) | Latest `0.x` minor :white_check_mark: |
 | Go SDK (`github.com/norbix-code/sdk-go`) | [sdk-go](https://github.com/norbix-code/sdk-go) | [pkg.go.dev](https://pkg.go.dev/github.com/norbix-code/sdk-go) | Latest `0.x` minor :white_check_mark: |
 | `@norbix/react-redux` | [react-redux](https://github.com/norbix-code/react-redux) | not yet released | `main` branch :white_check_mark: |
 | Older minor versions | | | :x: |
